@@ -1,0 +1,188 @@
+.carroussel{
+    background-image: url('../img/granulado.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 360px;
+}
+.layer-carroussel{
+    height: 360px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    z-index: 3;
+}
+.descricao-produto{
+    color: white;
+    padding: 50px 0 50px 30px;
+    width: 450px;
+    margin-left: 0;
+    float: left;
+    z-index: 8;
+    position: relative;
+}
+.descricao-produto h2{
+    padding-bottom: 10px;
+}
+.fotos{
+    width: 300px;
+    padding: 0;
+    float: right;
+    margin-right: 100px;
+}
+.fotos img{
+    width: 300px;
+    height: 356px;
+    border-radius: 40px;
+}
+.slick-slider{
+    width: 600px;
+}
+.slick-list{
+    width: 300px;
+    float: right;
+    margin-right: 96px;
+    border: 2px solid black;
+    border-radius: 40px;
+    background: #808080;
+    z-index: 8;
+}
+.slick-prev{
+    font-size: 0;
+    background-color: transparent;
+    border: 0;
+    width: 25px;
+    height: 51px;
+    background-image: url('../img/anterior.png');
+    position: absolute;
+    display: inline-block;
+    margin: 150px 0 0 140px;
+    z-index: 9;
+}
+.slick-next{
+    font-size: 0;
+    background-color: transparent;
+    border: 0;
+    width: 25px;
+    height: 51px;
+    background-image: url('../img/proximo.png');
+    position: absolute;
+    float: right;
+    margin: 150px 0 0 540px;
+    z-index: 9;
+}
+.linha-produtos-populares{
+    background: #ff6666;
+    height: 50px;
+    z-index: 5;
+}
+.hh2{
+    color: white;
+    font-weight: normal;
+    display: inline;
+    position: absolute;
+    float: left;
+    left: 523px;
+    top: 435px;
+}
+.fotos-produtos-populares{
+    background: #F0F0F0;
+    padding-top: 40px;
+    width: 100%;
+    height: 800px;
+}
+.single-foto{
+    margin: 0 10px 30px;
+    width: 31%;
+    height: 350px;
+    border-radius: 40px;
+    float: left;
+    background-size: cover;
+}
+.single-foto img{
+    margin: 0 10px 30px;
+    width: 100%;
+    height: 350px;
+    background-size: cover; 
+    border-radius: 40px;
+    float: left;
+    border: 3px solid black;
+    border-radius: 40px;
+    z-index: 2;
+}
+.layer-produtos{
+    position: absolute;
+    margin: 0 10px 30px;
+    width: 302px;
+    height: 350px; 
+}
+.texto-layer:hover{
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+}
+.texto-layer{
+    padding: 60px 10px;
+    text-align: center;
+    color: transparent;
+    height: 350px;
+    border-radius: 40px;
+    transition-duration: 0.4s;
+}
+.texto-layer >h2{
+    margin-bottom: 50px;
+}
+.restaurante{
+    background-image: url('../img/mesa-restaurante.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+.restaurante h2{
+    font-weight: normal;
+}
+.restaurante h2,p{
+    position: relative;
+    z-index: 3;
+    padding-bottom: 25px;
+}
+.layer-restaurante{
+    left: 0;
+    top: 1275px;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 2;
+}
+.linha-sobre{
+    width: 100%;
+    height: 40px;
+    background-color: #ff4d4d;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+.linha-sobre h2{
+    font-weight: normal;
+}
+.section-texto-sobre{
+    background-color: #ff6666;
+}
+.div-texto-sobre{
+    color: white;
+    padding: 30px 10px 10px;
+}
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: #ff4d4d;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+.footer p{
+    padding: 0;
+}
